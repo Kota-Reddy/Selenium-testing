@@ -30,7 +30,7 @@ public class SFLogin {
 		SFLoginPagePageFactory sfLoginPagePF = new SFLoginPagePageFactory(driver);
 		Thread.sleep(2000);
 		sfLoginPagePF.email().sendKeys("51453369");
-		sfLoginPagePF.password().sendKeys("NE11**ha");
+		sfLoginPagePF.password().sendKeys("abc@123");
 		sfLoginPagePF.login().click();
 		
 	}
